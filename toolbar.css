@@ -1,0 +1,39 @@
+/* remove the all tabs button */
+#alltabs-button {
+  display: none;
+}
+
+/* remove the folder icon on the favs folders */
+toolbarbutton.bookmark-item > image[type="menu"] {
+  /*display: none !important;*/
+}
+
+/* set the toolbox rules */
+#navigator-toolbox {
+  background: var(--transparent) !important;
+}
+
+/* tabs bar */
+#titlebar {
+  background: var(--surface-1) !important;
+}
+
+/* navigation bar */
+#nav-bar {
+  background: var(--surface-2) !important;
+}
+
+/* favorite toolbar */
+#PersonalToolbar {
+  background: var(--surface-2) !important;
+}
+
+/* current tab */
+.tab-background[selected="true"] {
+  background: var(--current-tab) !important;
+}
+
+/* other tab */
+.tab-background:not([selected="true"]) {
+  background: var(--other-tab);
+}

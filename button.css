@@ -1,0 +1,26 @@
+/* firefox btn on hover */
+.toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > image,
+.toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-badge-stack,
+toolbarbutton.bookmark-item:not(.subviewbutton, [disabled="true"], [open]):hover,
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover,
+.identity-box-button:hover:not([open="true"]),
+#tracking-protection-icon-container:hover:not([open="true"]),
+.urlbar-page-action:not([disabled]):hover,
+#urlbar-go-button:hover,
+.search-go-button:hover,
+#identity-box[pageproxystate="valid"].extensionPage > .identity-box-button,
+#tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover,
+#tabbrowser-arrowscrollbox:not([scrolledtoend="true"])::part(scrollbutton-up):hover
+{
+  background: var(--hover-btn) !important;
+}
+
+/* firefox btn on open */
+toolbar .toolbarbutton-1:not([disabled="true"]):is([open], [checked], :hover:active) > .toolbarbutton-badge-stack,
+toolbar .toolbarbutton-1:not([disabled="true"]):is([open], [checked], :hover:active) > .toolbarbutton-icon,
+#tracking-protection-icon-container[open="true"],
+#PersonalToolbar .toolbarbutton-1:not([disabled="true"]):is([open], [checked], :hover:active),
+toolbarbutton.bookmark-item[open="true"]
+{
+  background: var(--open-btn) !important;
+}

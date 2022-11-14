@@ -1,0 +1,26 @@
+:root {
+  --arrowpanel-background: transparent !important;
+  --panel-background: #000000e0;
+}
+
+menupopup {
+  background-color: #0000005f !important;
+  backdrop-filter: blur(12px);
+}
+
+.menupopup-arrowscrollbox {
+	background: transparent !important;
+	border: 0 !important;
+}
+
+#PlacesToolbar menupopup[placespopup="true"]::part(arrowscrollbox) {
+	background: transparent !important;
+}
+
+.PanelUI-subView {
+  background: #00000096 !important;
+}
+
+panelview, panelmultiview {
+  background: #000000e0;
+}

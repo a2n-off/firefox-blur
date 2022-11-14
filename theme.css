@@ -1,0 +1,14 @@
+:root {
+  --transparent: transparent;
+
+  --surface-1:   #00000085;
+  --surface-2:   #00000096;
+
+  --current-tab: #0000005c;
+  --other-tab: #00000017;
+
+  --url-bar:     #0000005c;
+
+  --hover-btn: #5e5d5d5c;
+  --open-btn:  #5e5d5d40;
+}

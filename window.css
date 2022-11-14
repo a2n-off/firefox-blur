@@ -1,0 +1,9 @@
+/* mandatory for other transparent background */
+#main-window {
+  background: var(--transparent) !important;
+}
+
+/* for the case the "title bar" checbox is not checked */
+:root[tabsintitlebar] #navigator-toolbox-background {
+  appearance: none !important;
+}
